@@ -1,0 +1,73 @@
+page-home {
+  .home{
+    background: #f6f6f6;
+  .product-box{
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 7px;
+    padding-bottom: 5px;
+
+    .product-img{
+      width: 150px;
+
+      @media only screen and (min-width: $breakpoint-phone) {
+        width: 200px;
+      }
+      @media only screen and (min-width: $breakpoint-tablet) {
+        width: 230px;
+      }
+      @media only screen and (min-width: $breakpoint-desktop) {
+        width: 250px;
+      }
+
+    }
+    .details{
+      margin-top: 15px;
+      .brand{
+        color:#969696;
+        margin: 0;
+        font-size: 16px;
+
+
+
+      }
+      .description{
+        line-height: 1.4;
+        margin: 0;
+        font-size: 14px;
+        font-weight: 700 !important;
+        color: #000;
+        margin-top: 5px;
+        letter-spacing: .5px;
+      }
+      .price{
+        margin-top: 1rem;
+        color: #00a8ff;
+
+      }
+    }
+  }
+}
+.filter{
+  position: fixed;
+  bottom: 25px;
+  left: 30px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  // line-height: 50px;
+  background: #00a8ff;
+  i{
+    font-size: 22px;
+  }
+
+}
+.mybadge{
+  padding: .11em .2em;
+  font-size: 70%;
+  position: absolute;
+  top:-3px;
+  border-radius: 50%;
+}
+}
