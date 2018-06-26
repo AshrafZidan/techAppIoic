@@ -1,4 +1,4 @@
-<ion-content padding class="signup-form" overflow-scroll="false">
+<ion-content padding class="signup-form">
 
     <ion-navbar></ion-navbar>
 
@@ -17,7 +17,7 @@
                     <ion-icon [ngClass]="language === 'en' ?'iconEn':'iconAr'" name="ios-contact"></ion-icon>
                     {{ 'userName' | translate }}
                 </ion-label> -->
-                <ion-input formControlName="username"  [(ngModel)]="userName" type="text"
+                <ion-input  type="text"
                 placeholder="First Name"></ion-input>
             </ion-item>
 
@@ -109,7 +109,7 @@
 
         </ion-list>
         <!-- form Btns -->
-        <button ion-button block type="submit"  (click)="openPage('login')" class="sub app-white animated fadeInDown">Create Account</button>
+        <button ion-button block type="submit"  (click)="openPage('Verifypage')" class="sub app-white animated fadeInDown">Create Account</button>
     </form>
     <!-- <p class="login animated fadeInDown">
       Aleardy Have an Account ?
@@ -117,8 +117,8 @@
   </p> -->
 
   <p class="login animated fadeInDown">
-    Don't Have An Account ?
-    <button ion-button clear class="top" (click)="openPage('login')">SignUp</button>
+   Alerady Have An Account ?
+    <button ion-button clear class="top" (click)="openPage('LoginPage')">Login</button>
 </p>
 
 </ion-content>

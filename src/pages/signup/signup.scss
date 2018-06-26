@@ -2,9 +2,10 @@ signup-page {
   .title{
     color: #fff;
     text-align: center;
-    font-weight: 900;
-    font-size: 30px;
-    margin-top: 0;
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 10px;
+    letter-spacing: .8px;
     margin-bottom: 30px;
   }
 .signup-form {
@@ -13,22 +14,22 @@ signup-page {
   .logo {
     text-align: center;
     img {
-      width: 140px;
-      height: 140px;
+      width: 200px;
+      height: 100px;;
       margin: -40px 0 5%;
       @media only screen and (min-width: $breakpoint-phone) {
-        width: 160px;
-        height: 160px;
+        width: 200px;
+        height: 100px;
         margin: -40px 0 5%;
       }
       @media only screen and (min-width: $breakpoint-tablet) {
-        width: 200px;
+        width: 240px;
         height: 200px;
         margin: -40px 0 3%;
       }
       @media only screen and (min-width: $breakpoint-desktop) {
-        width: 230px;
-        height: 230px;
+        width: 240px;
+        height: 200px;
         margin: -40px 0 3%;
       }
     }
