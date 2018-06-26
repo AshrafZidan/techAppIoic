@@ -7,22 +7,22 @@ login-page {
       .logo {
           text-align: center;
           img {
-              width: 200px;
-              height: 200px;
+            width: 200px;
+            height: 100px;
               margin: 5% 0 5%;
               @media only screen and (min-width: $breakpoint-phone) {
-                  width: 230px;
-                  height: 230px;
+                width: 200px;
+                height: 100px;
                   margin: 50px 0 5%;
               }
               @media only screen and (min-width: $breakpoint-tablet) {
-                  width: 230px;
-                  height: 230px;
+                  width: 200px;
+                  height: 180px;
                   margin: 50px 0 5%;
               }
               @media only screen and (min-width: $breakpoint-desktop) {
-                  width: 230px;
-                  height: 230px;
+                  width: 200px;
+                  height: 180px;
                   margin: 50px 0 5%;
               }
           }
@@ -187,6 +187,8 @@ font-size: 13px;
 background: #fff;
 color: #00a8ff;
 font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 1.3px;
 }
 .list-ios > .item-block {
   margin-bottom: 5px !important;

@@ -11,7 +11,7 @@
             <ion-item class="item1 first-inpt animated fadeInDown">
 
 
-                <ion-input placeholder=" Email " formControlName="username" name="username" [(ngModel)]="userName" type="text" required></ion-input>
+                <ion-input placeholder=" Email " type="text" ></ion-input>
             </ion-item>
 
 
@@ -19,7 +19,7 @@
             <ion-item class="item2 last animated fadeInDown">
 
 
-                <ion-input class="" placeholder=" Password " formControlName="password" name="password" [(ngModel)]="password" [type]="passwordType" required>
+                <ion-input class="" placeholder=" Password "  [type]="passwordType" >
 
 
                 </ion-input>
@@ -33,7 +33,7 @@
       <button ion-button clear type="button" (click)="openPage('Forgetpassword')" class="animated fadeInDown forgetpassBtn pull-right">Forget Password ?</button>
 
 
-        <button ion-button block type="submit" (click)="openPage('HomePage')" class="animated fadeInDown app-white">Login</button>
+        <button ion-button block  disabled (click)="openPage('LoginPage')" class="animated fadeInDown app-white">Login</button>
     </form>
 
 
