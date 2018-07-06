@@ -55,7 +55,8 @@ $main-font-size: 14px;
 $main-border: 1px solid;
 // default splash page background
 // $mainBackground: url(../assets/img/main-bg.png);
-$mainBackground:#00a8ff;
+$mainBackground:#008cff;
+
 // responsive media query
 $breakpoint-xsphone: 320px;
 $breakpoint-phone: 480px;
@@ -325,6 +326,8 @@ font-size: 25px;
   font-size: 2.5em;
   color: #f3f3f3;
   float:left;
+  padding-left: 1rem;
+
 }
 .order-hr{
 
@@ -366,4 +369,45 @@ padding: 0;
 .list-md .item-input.ng-valid.input-has-value:not(.input-has-focus):last-child .item-inner,
 .list-md .item-input.ng-invalid.ng-touched:not(.input-has-focus):last-child .item-inner {
     box-shadow: none;
+}
+
+.app-btn-revese{
+  background: $mainBackground !important;
+  color: #fff !important;
+}
+
+.app-btn-revese:hover{
+  background: #00a8ff !important;
+}
+.fixed-botomr{
+  position: relative;
+  // bottom: 7rem !important;
+
+    bottom: 0rem;
+    // width: 90%;
+    // left: 5%;
+
+}
+
+.fixed-botom{
+  position: fixed;
+    margin: 0 !important;
+    bottom: 2.5rem;
+    width: 90%;
+    left: 5%;
+
+}
+.page-title{
+  text-align: center;
+  margin: 10px auto;
+  letter-spacing: .9px;
+  margin: 0;
+}
+
+.item-radio-checked.item-ios ion-label {
+  color: green;
+}
+
+.radio-ios .radio-checked .radio-inner{
+  border-color: green !important
 }
